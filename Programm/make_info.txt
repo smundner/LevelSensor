@@ -1,0 +1,15 @@
+avr-gcc -c -mmcu=attiny2313 -DF_CPU=16000000 -Wall -Os main.c -o main.o
+avr-gcc -c -mmcu=attiny2313 -DF_CPU=16000000 -Wall -Os usart.c -o usart.o
+avr-gcc -mmcu=attiny2313 -DF_CPU=16000000 -Wall -Os main.o usart.o -o dmxRgb.elf
+avr-size --mcu=attiny2313 -C dmxRgb.elf
+AVR Memory Usage
+----------------
+Device: attiny2313
+
+Program:     244 bytes (11.9% Full)
+(.text + .data + .bootloader)
+
+Data:          5 bytes (3.9% Full)
+(.data + .bss + .noinit)
+
+

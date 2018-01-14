@@ -1,0 +1,1 @@
+make > make_info.txt
