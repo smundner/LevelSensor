@@ -1,0 +1,659 @@
+Archive member included because of file (symbol)
+
+/usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+                              main.o (__divmodhi4)
+/usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+                              main.o (__udivmodsi4)
+/usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/crttn2313.o (exit)
+/usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+                              main.o (__umulsidi3)
+/usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o) (__prologue_saves__)
+/usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o) (__epilogue_restores__)
+/usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+                              /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+                              /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o) (__muldi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+buffer              0x9               main.o
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/crttn2313.o
+ .text          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ COMMON         0x00000000        0x9 main.o
+ .text          0x00000000        0x0 usart.o
+ .bss           0x00000000        0x0 usart.o
+ .text          0x00000000        0x0 onewire.o
+ .bss           0x00000000        0x0 onewire.o
+ .text.onewire_match_rom
+                0x00000000       0x38 onewire.o
+ .text.onewire_search
+                0x00000000       0xde onewire.o
+ .text.onewire_search_init
+                0x00000000       0x14 onewire.o
+ .text.onewire_search_rom
+                0x00000000        0x6 onewire.o
+ .text.onewire_alarm_search
+                0x00000000        0x6 onewire.o
+ .text.onewire_read_rom
+                0x00000000       0x46 onewire.o
+ .text.onewire_crc_serial
+                0x00000000       0x42 onewire.o
+ .bss.max_conf_old.1978
+                0x00000000        0x1 onewire.o
+ .text          0x00000000        0x0 ds18x20.o
+ .bss           0x00000000        0x0 ds18x20.o
+ .text.ds18S20_read_temp
+                0x00000000       0x8c ds18x20.o
+ .text.ds18S20_write_scratchpad
+                0x00000000       0x1a ds18x20.o
+ .text.ds18B20_write_scratchpad
+                0x00000000       0x3c ds18x20.o
+ .text.ds18x20_copy_scratchpad
+                0x00000000       0x2c ds18x20.o
+ .text.ds18x20_recall_E2
+                0x00000000       0x12 ds18x20.o
+ .text.ds18x20_read_power_supply
+                0x00000000       0x10 ds18x20.o
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/crttn2313.o
+START GROUP
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/libm.a
+END GROUP
+LOAD main.o
+LOAD usart.o
+LOAD onewire.o
+LOAD ds18x20.o
+START GROUP
+LOAD /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/libm.a
+LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x686
+ *(.vectors)
+ .vectors       0x00000000       0x26 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/crttn2313.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000026                . = ALIGN (0x2)
+                0x00000026                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000026        0x0 linker stubs
+ *(.trampolines*)
+                0x00000026                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data.crc_table.2012
+                0x00000026       0x10 onewire.o
+                0x00000036                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000036                __ctors_start = .
+ *(.ctors)
+                0x00000036                __ctors_end = .
+                0x00000036                __dtors_start = .
+ *(.dtors)
+                0x00000036                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000036        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/crttn2313.o
+                0x00000036                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000036        0x8 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/crttn2313.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000003e       0x10 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+                0x0000003e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000004e        0x4 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/crttn2313.o
+ *(.init9)
+ *(.text)
+ .text          0x00000052        0x2 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/crttn2313.o
+                0x00000052                __vector_1
+                0x00000052                __vector_12
+                0x00000052                __bad_interrupt
+                0x00000052                __vector_6
+                0x00000052                __vector_3
+                0x00000052                __vector_11
+                0x00000052                __vector_13
+                0x00000052                __vector_17
+                0x00000052                __vector_5
+                0x00000052                __vector_9
+                0x00000052                __vector_2
+                0x00000052                __vector_15
+                0x00000052                __vector_8
+                0x00000052                __vector_14
+                0x00000052                __vector_10
+                0x00000052                __vector_16
+                0x00000052                __vector_18
+                0x00000054                . = ALIGN (0x2)
+ *(.text.*)
+ .text.__vector_7
+                0x00000054       0x50 main.o
+                0x00000054                __vector_7
+ .text.__vector_4
+                0x000000a4       0x4a main.o
+                0x000000a4                __vector_4
+ .text.TIMER_Init
+                0x000000ee       0x10 main.o
+                0x000000ee                TIMER_Init
+ .text.sendLine
+                0x000000fe       0x30 main.o
+                0x000000fe                sendLine
+ .text.my_uitoa
+                0x0000012e       0x4c main.o
+                0x0000012e                my_uitoa
+ .text.getTemp  0x0000017a       0x40 main.o
+                0x0000017a                getTemp
+ .text.getPulse
+                0x000001ba       0x4a main.o
+                0x000001ba                getPulse
+ .text.main     0x00000204       0x9c main.o
+                0x00000204                main
+ .text.USART_Init
+                0x000002a0        0xe usart.o
+                0x000002a0                USART_Init
+ .text.USART_Transmit
+                0x000002ae        0x8 usart.o
+                0x000002ae                USART_Transmit
+ .text.USART_Receive
+                0x000002b6        0x8 usart.o
+                0x000002b6                USART_Receive
+ .text.USART_RS458_Init
+                0x000002be        0x6 usart.o
+                0x000002be                USART_RS458_Init
+ .text.USART_Transmit_RS485
+                0x000002c4       0x10 usart.o
+                0x000002c4                USART_Transmit_RS485
+ .text.onewire_reset
+                0x000002d4       0x42 onewire.o
+                0x000002d4                onewire_reset
+ .text.onewire_write_bit
+                0x00000316       0x40 onewire.o
+                0x00000316                onewire_write_bit
+ .text.onewire_read_bit
+                0x00000356       0x2e onewire.o
+                0x00000356                onewire_read_bit
+ .text.onewire_read_byte
+                0x00000384       0x1c onewire.o
+                0x00000384                onewire_read_byte
+ .text.onewire_write_byte
+                0x000003a0       0x18 onewire.o
+                0x000003a0                onewire_write_byte
+ .text.onewire_skip_rom
+                0x000003b8       0x14 onewire.o
+                0x000003b8                onewire_skip_rom
+ .text.onewire_crc
+                0x000003cc       0x60 onewire.o
+                0x000003cc                onewire_crc
+ .text.ds18x20_convert_t
+                0x0000042c       0x1e ds18x20.o
+                0x0000042c                ds18x20_convert_t
+ .text.ds18x20_read_scratchpad
+                0x0000044a       0x2a ds18x20.o
+                0x0000044a                ds18x20_read_scratchpad
+ .text.ds18B20_read_temp
+                0x00000474       0x8c ds18x20.o
+                0x00000474                ds18B20_read_temp
+ .text.libgcc.div
+                0x00000500       0x26 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+                0x00000500                __divmodhi4
+                0x00000500                _div
+ .text.libgcc.div
+                0x00000526       0x44 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+                0x00000526                __udivmodsi4
+ .text.libgcc.mul
+                0x0000056a       0x3a /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+                0x0000056a                __mulsidi3
+                0x0000056e                __umulsidi3
+ .text.libgcc.prologue
+                0x000005a4       0x2e /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+                0x000005a4                __prologue_saves__
+ .text.libgcc.prologue
+                0x000005d2       0x2c /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+                0x000005d2                __epilogue_restores__
+ .text.libgcc.div
+                0x000005fe       0x28 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+                0x000005fe                __udivmodhi4
+ .text.libgcc.mul
+                0x00000626       0x5c /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+                0x00000626                __muldi3
+                0x00000682                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000682        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+                0x00000682                exit
+                0x00000682                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000682        0x4 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000686                _etext = .
+
+.data           0x00800060        0x0 load address 0x00000686
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr25/tiny-stack/crttn2313.o
+ .data          0x00800060        0x0 main.o
+ .data          0x00800060        0x0 usart.o
+ .data          0x00800060        0x0 onewire.o
+ .data          0x00800060        0x0 ds18x20.o
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_divmodhi4.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_exit.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_mulsidi3.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_prologue.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_epilogue.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_udivmodhi4.o)
+ .data          0x00800060        0x0 /usr/lib/gcc/avr/4.8.1/avr25/tiny-stack/libgcc.a(_muldi3.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800060                . = ALIGN (0x2)
+                0x00800060                _edata = .
+                0x00800060                PROVIDE (__data_end, .)
+
+.bss            0x00800060        0x4
+                0x00800060                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.mycros    0x00800060        0x4 main.o
+                0x00800060                mycros
+ *(COMMON)
+                0x00800064                PROVIDE (__bss_end, .)
+                0x00000686                __data_load_start = LOADADDR (.data)
+                0x00000686                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800064        0x0
+                0x00800064                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800064                PROVIDE (__noinit_end, .)
+                0x00800064                _end = .
+                0x00800064                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000     0x1f80
+ *(.stab)
+ .stab          0x00000000      0xa20 main.o
+ .stab          0x00000a20      0x4bc usart.o
+                                0x684 (size before relaxing)
+ .stab          0x00000edc      0xaec onewire.o
+                               0x132c (size before relaxing)
+ .stab          0x000019c8      0x5b8 ds18x20.o
+                                0xb94 (size before relaxing)
+
+.stabstr        0x00000000     0x1306
+ *(.stabstr)
+ .stabstr       0x00000000     0x1306 main.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 main.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 usart.o
+ .comment       0x00000000       0x12 onewire.o
+ .comment       0x00000000       0x12 ds18x20.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(levelSensor.elf elf32-avr)
+LOAD linker stubs
